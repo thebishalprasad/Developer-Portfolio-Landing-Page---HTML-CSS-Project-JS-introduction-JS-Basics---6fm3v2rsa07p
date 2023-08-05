@@ -1,1 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 200px 0;
+    background-image: url(assest/header.jpg);
+    
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.black-box-section {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.card {
+    width: 300px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+.bottom-section {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 800px) {
+    .hero-content h1 {
+        font-size: 30px;
+    }
+    .hero-content p {
+        font-size: 16px;
+    }
+    .card-container {
+        padding: 20px;
+    }
+    .card {
+        width: 100%;
+    }
+
+    .bottom-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+.bottom-section {
+    background-color:whitesmoke;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-me,
+.contact-me {
+    flex: 1;
+    max-width: 500px;
+    margin: 20px;
+}
+
+.about-me h3,
+.contact-me h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-me p,
+.contact-me p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-me ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-me li {
+    margin-bottom: 10px;
+}
+
+.contact-me a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-me{
+    background-color: green;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.about-me{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
 
